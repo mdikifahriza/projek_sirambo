@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Deskripsi - SiRambo</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <style>
+      .video-card {
+        max-width: 1000px;
+        margin: 20px auto;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background-color: #fff;
+      }
+      .responsive-video {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body class="resume-page">
+    <header
+      id="header"
+      class="header d-flex align-items-center light-background sticky-top"
+    >
+      <div
+        class="container-fluid position-relative d-flex align-items-center justify-content-between"
+      >
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center me-auto me-xl-0"
+        >
+          <h1 class="sitename">SiRambo</h1>
+        </a>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="deskripsi.html" class="active">Deskripsi</a></li>
+            <li><a href="inovasi.html">Inovasi</a></li>
+            <li><a href="dokumentasi.html">Dokumentasi</a></li>
+            <li><a href="dokumen.html">Dokumen</a></li>
+            <li><a href="tim.html">Tentang Kami</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+        <div class="header-social-links">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section">
+        <div class="container text-center" data-aos="fade-up">
+          <h2>SiRambo: Sistem Penyiraman Otomatis Berbasis Android</h2>
+          <p>
+            Inovasi berbasis ESP32 dan Firebase untuk solusi penyiraman tanaman
+            modern.
+          </p>
+        </div>
+        <div class="video-card" data-aos="fade-up" data-aos-delay="200">
+          <video class="responsive-video" autoplay loop muted playsinline>
+            <source src="assets/vd/2.1.mp4" type="video/mp4" />
+            Browser Anda tidak mendukung tag video.
+          </video>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Gambaran Umum Sistem</h2>
+            <p>
+              Sistem ini memadukan ESP32 sebagai pengontrol perangkat keras
+              dengan aplikasi Android melalui Firebase untuk otomasi penuh dalam
+              penyiraman tanaman.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Komponen Utama: ESP32</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li>
+                  <strong>Sensor Kelembapan Tanah:</strong> Membaca kadar
+                  kelembapan tanah dan mengubahnya menjadi nilai persentase.
+                </li>
+                <li>
+                  <strong>Sensor Suhu & Kelembapan Udara (DHT22):</strong>
+                  Mengukur suhu dan kelembapan lingkungan.
+                </li>
+                <li>
+                  <strong>Pengontrol Relay:</strong> Mengaktifkan atau
+                  menonaktifkan pompa air secara manual atau otomatis
+                  berdasarkan pembacaan sensor.
+                </li>
+                <li>
+                  <strong>Kontrol Suhu dan Kipas:</strong> Menyalakan fan atau
+                  heater berdasarkan suhu.
+                </li>
+                <li>
+                  <strong>Kontrol LED:</strong> Memberikan indikasi status
+                  sistem secara visual.
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="assets/img/bg-beranda.png"
+                alt="Ilustrasi ESP32"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Firebase: Jantung Penghubung</h2>
+            <p>
+              Firebase berfungsi sebagai pusat penyimpanan dan pengelolaan data,
+              memungkinkan sinkronisasi real-time antara perangkat keras dan
+              aplikasi.
+            </p>
+          </div>
+          <ul>
+            <li>
+              <strong>Penyimpanan Data Sensor:</strong> Menyimpan data
+              kelembapan tanah, suhu, dan kelembapan udara secara berkala.
+            </li>
+            <li>
+              <strong>Riwayat Sensor:</strong> Mencatat semua data historis
+              untuk pemantauan jangka panjang.
+            </li>
+            <li>
+              <strong>Status Perangkat:</strong> Memperbarui status relay, LED,
+              dan fan secara real-time.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Aplikasi Android: Kontrol di Genggaman</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <ul>
+                <li>
+                  <strong>Monitoring Sensor:</strong> Menampilkan data real-time
+                  dari Firebase.
+                </li>
+                <li>
+                  <strong>Pengaturan Threshold:</strong> Mengatur batas
+                  kelembapan dan suhu dari aplikasi.
+                </li>
+                <li>
+                  <strong>Kontrol Manual & Otomatis:</strong>
+                  Mengaktifkan/deaktivasi relay, fan, dan LED secara langsung
+                  atau otomatis.
+                </li>
+                <li>
+                  <strong>Pembaruan Status Otomatis:</strong> Sinkronisasi
+                  real-time tanpa perlu refresh manual.
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-12 text-center">
+              <img
+                src="assets/img/android.jpg"
+                alt="Antarmuka Aplikasi"
+                class="img-fluid"
+                style="height: 700px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Alur Kerja Sistem</h2>
+          </div>
+          <ol>
+            <li>ESP32 membaca data dari sensor.</li>
+            <li>Data dikirim ke Firebase secara berkala.</li>
+            <li>
+              Aplikasi Android membaca dan menampilkan data kepada pengguna.
+            </li>
+            <li>
+              Pengguna dapat mengubah pengaturan atau mengontrol perangkat
+              melalui aplikasi.
+            </li>
+            <li>
+              ESP32 menerapkan perubahan yang diperbarui dari Firebase ke
+              perangkat keras.
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="kesimpulan" class="section">
+        <div class="container text-center" data-aos="fade-up">
+          <h2>Kesimpulan</h2>
+          <p>
+            Dengan kombinasi ESP32, Firebase, dan aplikasi Android, SiRambo
+            menawarkan sistem penyiraman tanaman yang sepenuhnya otomatis,
+            fleksibel, dan mudah dikendalikan dari mana saja. Solusi modern
+            untuk pertanian cerdas masa depan!
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer light-background">
+      <div class="container">
+        <div class="copyright text-center">
+          <p>
+            &copy; Copyright <strong>Tim SiRambo</strong>. All Rights Reserved
+          </p>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+    <div id="preloader"></div>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
