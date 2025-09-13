@@ -1,4 +1,5 @@
-
+![Dok](https://github.com/user-attachments/assets/b9fb687f-e556-499a-970f-e22592880d41)
+![Dok](https://github.com/user-attachments/assets/589a62c7-60e5-4d0b-b561-57a20128eee2)
 ## Cara Pakai
 
 1. Clone atau download repo ini.
